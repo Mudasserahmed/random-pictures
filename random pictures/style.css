@@ -17,20 +17,32 @@
 .content{
     border-color: rgb(148, 129, 129);
     border-style:inset;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 27%;
+    margin-right: 27%;
     background-color: rgb(163, 154, 154);
+    color: white;
 }
 .content button{
     margin: 10px;
     padding: 10px;
     color: white;
-    width: 200px;
+    width: 30%;
     background-color: rgb(221, 137, 80);
-    border-radius: 20px;
-    margin-bottom: 20px;
+    border-radius: 10%;
+    margin-bottom: 10%;
 }
-
+@media (max-width:700px){
+    .content{
+        width: 60%;
+    }
+    .content input{
+        width: 70%;
+    }
+    .content img{
+        width: 70%;
+        height: 50%;
+    }
+}
 /*
 .api{
     width: 38%;
